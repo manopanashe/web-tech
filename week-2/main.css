@@ -18,9 +18,10 @@ nav ul{
 
 }
 nav ul li{
-    
-    display: inline;
-   padding: 12%;
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px solid;
+   
 }
 
 
@@ -35,13 +36,24 @@ h1{
 button{
     background-color: forestgreen;
     width: 10%;
+    float:left;
+    position: absolutes;
 }
 
 
 section{
 
-    border: 1px solid red;
+    border: 1px white;
+    border-style: outset;
     width: 29%;
     padding: 2%;
-    float: right;
+    float: left;
+    margin-top: 5%;
+    position: absolute;
+
+}
+#img{
+    float: left;
+    margin-block-start: 40%
+
 }
