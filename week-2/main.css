@@ -1,0 +1,33 @@
+*{
+    margin:0;
+    padding:0
+
+}
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: aliceblue;
+}
+nav{
+    background-color: darkgray;
+    margin-bottom: 5%;
+}
+nav ul{
+    width: 200px;
+    margin: 0 auto;
+}
+nav ul li{
+    display: inline;
+}
+
+h1{
+
+    text-align: center;
+}
+
+section{
+
+    border: 1px solid red;
+    width: 29%;
+    padding: 2%;
+    float: left;
+}
