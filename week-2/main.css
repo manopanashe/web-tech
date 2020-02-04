@@ -1,6 +1,7 @@
 *{
     margin:0;
-    padding:0
+    padding:0;
+    box-sizing: border-box;
 
 }
 body{
@@ -57,6 +58,15 @@ section{
     margin-block-start: 40%
 
 }
-#section2{
-    float: initial;
+
+
+#footer div{
+    background-color: whitesmoke;
+        padding: 10px;
+        text-align: center;
+        color: white;widows: 100px;
+         height: 230px;
+          width: 1000px; 
+          border: 10px;
+          
 }
