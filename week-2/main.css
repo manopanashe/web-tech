@@ -57,3 +57,6 @@ section{
     margin-block-start: 40%
 
 }
+#section2{
+    float: initial;
+}
