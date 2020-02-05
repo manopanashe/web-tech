@@ -1,6 +1,7 @@
 *{
-    margin:0;
-    padding:0;
+    
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 
 }
@@ -44,18 +45,21 @@ button{
 
 section{
 
-    border: 1px white;
+    border: 1px white solid pink;
     border-style: outset;
     width: 29%;
     padding: 2%;
     float: left;
     margin-top: 5%;
     position: absolute;
-
+   box-shadow: 10px 20px solid white ;
+ 
 }
+
 #img{
     float: left;
-    margin-block-start: 40%
+    margin-block-start: 40%;
+    display: flex;
 
 }
 
