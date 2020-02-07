@@ -2,16 +2,19 @@
     
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+ 
 
 }
 body{
     font-family: 'Times New Roman', Times, serif;
     background-color: whitesmoke;
 }
-nav{
+@nav{
     background-color: white;
     margin-bottom: 5%;
+#img{
+    width:12%;
+}
 }
 nav ul{
     width: 200px;
@@ -23,9 +26,13 @@ nav ul li{
     position: relative;
     display: inline-block;
     border-bottom: 1px solid;
+    color: crimson;
    
 }
-
+#content{
+    width:100%; 
+    height: 100%;   
+}
 
 
 h1{
@@ -55,24 +62,45 @@ section{
    box-shadow: 10px 20px solid white ;
  
 }
+#section1{
+    height: 500px; 
+}
+#section2{
+    float: right; 
+    margin-inline-start: 30%;
+     height: 500px; 
+}
 
 #img{
-    float: left;
-    margin-block-start: 40%;
-    display: flex;
-
+ 
+    float:left;
+    margin-inline-end: 40%;
 }
 
 
-#footer div{
+#footer {
     background-color: whitesmoke;
-        padding: 10px;
+        padding: 0px;
         text-align: center;
-        color:black;
-        height: 230px; 
-        width: 1000px;
+        color:black; 
+        height:500px;
+        margin-bottom: 80%
+      
           
 }
+#section3{
+    width: 230px; 
+    height: 300px;
+    margin-block-end: 80%;
+}
+#img2{
+    float: inherit; 
+    display: flex;  
+}
+#h4{
+    margin-block-start: 60%;
+}
+
 @media (max-width:700px){
     section{
         width:100%;
