@@ -1,23 +1,32 @@
 
 body{
 font-family:serif;
+background-color:#CEB1BE ;
 }
 h1{
     text-align: center;
+    color: #D65108;
 }
 #form{
-width:360px;
+width:800px;
 margin: auto;
 }
-#survey-form legend{
+form legend{
 text-align:center;
 font-weight: bolder;
-color: chartreuse;
+color:#8F9491;
+}
+form fieldset{
+    border-radius: 25px;
+    background-color: #EADDE1
 }
 
-#survery-form input[type="text"], 
+form input[type="text"], 
 input[type="tel"],
  input[type="email"]{
     float: initial;
-    margin-block-start: 10PX;
+    margin-block-start: 10px;
+}
+form input[type="submit"]{
+    color: cadetblue;
 }
