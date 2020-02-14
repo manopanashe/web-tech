@@ -1,0 +1,23 @@
+
+body{
+font-family:serif;
+}
+h1{
+    text-align: center;
+}
+#form{
+width:360px;
+margin: auto;
+}
+#survey-form legend{
+text-align:center;
+font-weight: bolder;
+font-style: italic;
+}
+
+#survery-form input[type="text"], 
+input[type="tel"],
+ input[type="email"]{
+    float: initial;
+    margin-block-start: 10PX;
+}
