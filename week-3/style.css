@@ -12,7 +12,7 @@ margin: auto;
 #survey-form legend{
 text-align:center;
 font-weight: bolder;
-font-style: italic;
+color: chartreuse;
 }
 
 #survery-form input[type="text"], 
