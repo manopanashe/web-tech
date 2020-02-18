@@ -10,8 +10,9 @@ body{
     background-color: whitesmoke;
 }
 nav{
-    background-color: white;
+    background-color: whitesmoke;
     margin-bottom: 5%;
+    box-shadow: 5px 10px solid pink;
 }
 nav ul{
     width: 200px;
