@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="chatOutput">
+
+    </div>
+    <!-- /#chatOutput -->
+    <input type="text" id="nameInput" value="panashe"><br>
+    <textarea name="" id="" cols="30" rows="10">this is message</textarea><br>
+<button onclick="handleclick">send message</button>
+
+<script src="https://www.gstatic.com/firebasejs/7.10.0/firebase-app.js"></script>
+  <!-- If you enabled Analytics in your project, add the Firebase SDK for Analytics -->
+  <script src="https://www.gstatic.com/firebasejs/7.10.0/firebase-analytics.js"></script>
+  <!-- Add Firebase products that you want to use -->
+  <script src="https://www.gstatic.com/firebasejs/7.10.0/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.10.0/firebase-firestore.js"></script>
+        <script>
+                // Your web app's Firebase configuration
+                var firebaseConfig = {
+                  apiKey: "AIzaSyDrvlCdrYakBHcptIPFeHfdOspdb6GtECU",
+                  authDomain: "web-tec-2ddd6.firebaseapp.com",
+                  databaseURL: "https://web-tec-2ddd6.firebaseio.com",
+                  projectId: "web-tec-2ddd6",
+                  storageBucket: "web-tec-2ddd6.appspot.com",
+                  messagingSenderId: "846541929949",
+                  appId: "1:846541929949:web:9b39095a81f7157dda8a34",
+                  measurementId: "G-JXYE94YQ5C"
+                };
+                // Initialize Firebase
+                firebase.initializeApp(firebaseConfig);
+                firebase.analytics();
+              </script>
+</body>
+
+</html>
