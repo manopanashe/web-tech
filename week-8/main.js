@@ -1,5 +1,5 @@
 var tweetinput;
-var tweets = [''];
+var tweets = [];
 var maxTweetLenght = 20;
 function main(){
     tweetinput = document.getElementById("tweetInput");
@@ -10,8 +10,8 @@ function main(){
 function HandleBodyKeyDown(e){
     console.log(e.code)
     
-    if(e.code == 'enter' && (tweetinput.value.length > 1 && tweetinput.value.length <= maxTweetLenght)){
-        tweeets.push(tweetinput.value);
+    if(e.code == 'Enter' && (tweetinput.value.length > 1 && tweetinput.value.length <= maxTweetLenght)){
+        tweets.push(tweetinput.value);
         console.log('tweets')
     }
     var tweetTXTlist = "";
