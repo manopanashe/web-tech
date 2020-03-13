@@ -1,0 +1,50 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>HTML - Form </title>
+    <meta charset="utf-8">
+    <meta name="description" content="Session 8 form task">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1> Student Survey</h1>
+    <form action="https://www.google.co.uk/" id="form" method="POST">
+        <fieldset>
+            <legend>Student details</legend>
+
+            <p><label> Name: </label> <input type="text" name="first_name" required></p>
+            <p><label> Email: </label> <input type="email" name="last_name" required></p>
+            <p><label> Number: </label> <input type="tel" name="number" required></p>
+        </fieldset>
+        <fieldset>
+            <legend>Survey</legend>
+            <label> what year are you in? </label>
+            <p><select name="select">
+                    <option value="1">year 1</option>
+                    <option value="2">year 2</option>
+                    <option value="3">year 3</option>
+                    <option value="4">year 4</option>
+                </select></p>
+
+
+
+            <label> How many hours a day do you spend using electronic devices?</label>
+
+            <p><input type="radio" name="time" value="1 hour"> 1 hour</p>
+            <p><input type="radio" name="time" value="2 hours "> 2 hours</p>
+            <p><input type="radio" name="time" value="3 hours"> 3 hours +</p>
+
+
+
+            <label> any other comments</label>
+            <p><textarea></textarea></p>
+        </fieldset>
+        <!-- Submit button -->
+        <input type="submit" value="Submit">
+    </form>
+</body>
+
+</html>

@@ -1,0 +1,57 @@
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: gray; 
+}
+#wrapper{
+    width: 920px;
+    text-align: center;
+    background-color: aliceblue;
+}
+
+h1{
+text-align: center;
+}
+nav{
+    border-bottom: 2px solid thistle;
+}
+li{
+ display: inline;
+ text-align: center;
+}
+
+#about_me{
+    float: left;
+    background-color: whitesmoke ;
+    margin-inline-start: 20%;
+}
+#background{
+    float: right;
+    background-color: whitesmoke ;
+    margin-inline-end: 20%;
+}
+table{
+    border: 3px solid pink;
+   margin-inline-start: 40%;
+  
+}
+
+ th{
+    text-align: center;
+    border: 1px solid black;
+
+}
+tr:nth-child(even){
+    background-color: aqua;
+}
+th:first-child{
+    color: cadetblue;
+ font-weight: bold;
+}
+#footer{
+    border-top: 3px solid thistle;
+}
+
+
+
+

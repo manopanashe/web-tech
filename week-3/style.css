@@ -1,0 +1,32 @@
+
+body{
+font-family:serif;
+background-color:#CEB1BE ;
+}
+h1{
+    text-align: center;
+    color: #D65108;
+}
+#form{
+width:800px;
+margin: auto;
+}
+form legend{
+text-align:center;
+font-weight: bolder;
+color:#8F9491;
+}
+form fieldset{
+    border-radius: 25px;
+    background-color: #EADDE1
+}
+
+form input[type="text"], 
+input[type="tel"],
+ input[type="email"]{
+    float: initial;
+    margin-block-start: 10px;
+}
+form input[type="submit"]{
+    color: cadetblue;
+}
