@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>JavaScript page</title>
+</head>
+<body>
+    <h1>Details</h1>
+    <div id="results">
+
+    </div>
+    <!-- /#results -->
+    <input id="nameInput" value="panashe" type="text"><br>
+    <input  id="ageInput" value="19" type="text"><br>
+    <input id="location" value="Southampton" type="text"><br>
+    <button onclick="handleclick()">click me</button>
+    <script >
+   function handleclick(){
+       var name = document.getElementById('nameInput').value;
+       var age = document.getElementById('ageInput').value;
+       var location = document.getElementById('location').value;
+       document.getElementById('results').innerHTML = "name: " + name + " age: " + age + " location: " + location;
+       debugger;
+       console.log('clicked');
+   }
+    </script>
+</body>
+</html>

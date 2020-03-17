@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #wrapper{
    margin: auto;
     width: 920px;
@@ -8,11 +9,20 @@
 nav ul li{
     display: inline;
 margin-inline-start: 100px;
+=======
+
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: antiquewhite;
+    
+>>>>>>> 7a2f9ff2149938231702ce9c4a42093bbe5b679a
 }
 
 h1{
     text-align: center;
 }
+<<<<<<< HEAD
 #aboutme{
     float: left;
 }
@@ -22,4 +32,58 @@ h1{
 
 #footer{
     text-align: center;
+=======
+h2{
+    text-align: center;
+}
+#wrapper{
+    width: 80%;
+    height: 1000px;
+    background-color: azure;
+}
+section{
+    background-color: darkgrey;
+    width: 40%;
+    float: left;
+    padding: 3%;
+    border: 10px solid azure;
+    
+
+}
+
+li{
+    display: inline;
+    margin-inline-start: 20%;
+}
+#footer{
+    text-align: center;
+   margin-block-start: 125%
+}
+
+form input[type="email"] {
+   margin-inline-start: 5%; 
+
+}
+form label[for="message"]{
+    float: left;
+}
+form textarea{
+margin-inline-start:2%;
+}
+
+form input[type="submit"]{
+  margin-inline-start: 15%;
+}
+
+@media(max-width:400px){
+body{
+    background-color:palegreen;
+
+}
+.section{
+    width:80%;
+    float: right;
+    padding:5%
+}
+>>>>>>> 7a2f9ff2149938231702ce9c4a42093bbe5b679a
 }
