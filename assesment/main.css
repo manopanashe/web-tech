@@ -1,24 +1,53 @@
 Body{
     font-family: Arial, Helvetica, sans-serif;
-    background-color:  #66757F;
-    color: #f2f2f2;
+  background-color: gainsboro;
+
+    color: #66757F;
     
 }
+
 p{
     font-weight: lighter;
 }
 
 #main_section{
     text-align: center;
+    
+
+}
+#content{
+    float: left;
+  
+}
+#img{
+    float: right;
 }
 #footer{
     text-align: center;
 }
-nav{
-    border-bottom: 2px solid thistle;
-}
-li{
- display: inline;
- text-align: center;
- margin-inline-start: 20%;
-}
+.topnav {
+    background-color: #66757F;
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color:#66757F;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+  }
